@@ -8,4 +8,4 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Detect Secrets
-      uses: evanextreme/detect-secrets@1.0.0
+      uses: evanextreme/detect-secrets-actions@1.0.0

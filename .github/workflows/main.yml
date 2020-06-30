@@ -16,8 +16,8 @@ jobs:
     runs-on: ubuntu-latest
     name: Scan ZAP website
     steps:
-      - name: ZAP Scan
-        uses: zaproxy/action-baseline@v0.3.0
-        with:
-          target: 'https://www.zaproxy.org/'
+    - name: ZAP Scan
+      uses: zaproxy/action-full-scan@v0.1.0
+      with:
+        target: 'https://www.zaproxy.org/'
 

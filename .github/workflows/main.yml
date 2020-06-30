@@ -21,5 +21,3 @@ jobs:
         with:
           target: 'https://www.zaproxy.org/'
 
-      - name: Secret Scan
-        uses: max/secret-scan@1.0.0

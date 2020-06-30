@@ -14,3 +14,4 @@ Currently, the app contains the following types of vulnerabilities:
 * Server Side Includes(SSI) Injection
 and more...
 
+
